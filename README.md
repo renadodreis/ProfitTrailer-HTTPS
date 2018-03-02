@@ -122,8 +122,9 @@ server.ssl.key-password: PRECISOIRDORMIR
 server.ssl.keyStoreType: PKCS12
 server.ssl.keyAlias: tomcat
 ```
+> NOTA: observe com atenção a linha: server.ssl.key-store:/etc/letsencrypt/live/meuprofittraler.duckdns.org/keystore.p12, aqui esta o caminho do meu subdominio, onde deve ser alterado para o seu! 
 
-ou seja, o seu arquivo deve ficar mais ou menos assim 
+Ou seja, o seu arquivo deve ficar mais ou menos assim:
 
 ```json
 
