@@ -5,7 +5,7 @@ Instalação e configuração do HTTPS/SSL no ProfitTrailer
 
 - 1 - O seu ambiente deve esta em linux (Sorry!) 
 - 2 - Acesso ao console/terminal da sua instancia
-- 3 - um nome de dominio para a sua Instancia ex: meuprofittraler.duckdns.org
+- 3 - Um nome de dominio para a sua Instancia ex: meuprofittraler.duckdns.org
 - 4 - Vai precisar alterar o application.properties, deve fazer backup e depois edita-lo com o VIM ou NANO etc..
 
 ### Passos:
@@ -20,17 +20,17 @@ Voce pode acessar o site duckdns.org, onde você consegue criar subdominios e ap
 
 2 - coloque o nome do seu subdominio e clique em **add domain**
 
-> Nota: neste exemplo. eu já criei o subdominio  meuprofittraler.duckdns.org, desta forma o mesmo ja esta uso, voce deve criar com outro nome.
+> Nota: neste exemplo. eu já criei o subdominio  **meuprofittraler.duckdns.org**, desta forma, o mesmo ja esta uso, voce deve criar com outro nome.
 
 print-1-01
 
 Observe que após adicionar o subdominio, o mesmo coloca o IP do seu provedor de saida, voce deve alterar este IP para o IP da sua Instancia/VPS,
 após colocar o ip de sua instancia nao se esqueça de clicar na opcao **update ip**
 
-> Nota: leva um certo e longo  tempo (Até 24hs) para a publicao do subdominio apontar para a sua instancia, voce pode testar no seu navegador
+> Nota: leva um certo e longo  tempo (Até 24hs) para a publicação do subdominio apontar para a sua instancia, voce pode testar no seu navegador
 > ex: http://meuprofittraler.duckdns.org:8081
 
-Pronto, agora o subdominio meuprofittraler.duckdns.org já esta  apontando para a minha instancia, vamos ao segundo passo.
+Pronto, agora o subdominio meuprofittraler.duckdns.org já esta apontado para a sua instancia, vamos ao segundo passo.
 
 - Passo 02 
 
@@ -46,9 +46,9 @@ Ex: conexao com instancia com o MobaXterm
 
 - Passo 03 
 
-logado no seu servidor, sugiro que vire gente grande, ou seja root, ou voce pode digitar sudo antes de cada comando.
+logado no seu servidor, sugiro que vire gente grande, ou seja root, ou voce pode digitar o comando **sudo** antes de cada comando.
 
-Vamos instalar o git, com o comando abaixo: OBS preste atenção em qual S.O voce esta usando, acredito que seja o ubunto :)  
+Vamos instalar o git, com o comando abaixo: OBS preste atenção em qual S.O voce esta usando, acredito que seja o ubuntu :)  
 
 Comando no CentOS:
 
@@ -56,7 +56,7 @@ Comando no CentOS:
    yum install -y git
 ```
 
-Comando no Ubunto/Debian
+Comando no Ubuntu/Debian
 
 ```bash
    sudo apt-get  update && apt-get install  git -y 
