@@ -95,11 +95,12 @@ cd /etc/letsencrypt/live/meuprofittraler.duckdns.org/
 
 vamos execultar o comando abaixo:
 
-> OBS: digite uma senha e repita a mesma
 
 ```bash
 openssl pkcs12 -export -in fullchain.pem -inkey privkey.pem -out keystore.p12 -name tomcat -CAfile chain.pem -caname root
 ```
+
+> OBS: Digite uma senha e a repita.
  
 
 PASS 03 
