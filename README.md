@@ -76,24 +76,24 @@ cd certbot
      -d meuprofittraler.duckdns.org -d meuprofittraler.duckdns.org
 ```
 
-> NOTA: observe que no comando acima eu passei o nome do meu subdominio: neste exemplo:  meuprofittraler.duckdns.org, você deve colocar o seu!
+> NOTA: observe no comando acima o subdominio: meuprofittraler.duckdns.org, você deve colocar o seu!
 
-ele deve instalar novos pacotes, então vai ter pergunta se você que continuar, reponda sim com a letra ( Y ) do seu teclado.
+após execultar o comando, ele deve instalar novos pacotes, então vai pergunta se você quer continuar, reponda sim com a letra ( Y ) do seu teclado.
 
 print-2-01
 
-ele deve te pedir um email, coloque o seu email valido, depois aceite os Termos do contrato com a letra ( A ) do seu teclado, e por fim aperte ( y)
+Adicone um email valido, depois aceite os Termos do contrato com a letra ( A ) do seu teclado, e por fim aperte ( Y )
 
 print-2-02
 
+Agora vamos para o diretorio: /etc/letsencrypt/live/meuprofittraler.duckdns.org
 
-agora vamos para o diretorio: /etc/letsencrypt/live/meuprofittraler.duckdns.org
 ```bash
 cd /etc/letsencrypt/live/meuprofittraler.duckdns.org/
 ```
 > NOTA: lembre-se alterar o comando acima para o seu subdominio.
 
-e vamos execultar o comando abaixo:
+vamos execultar o comando abaixo:
 
 > OBS: digite uma senha e repita a mesma
 
