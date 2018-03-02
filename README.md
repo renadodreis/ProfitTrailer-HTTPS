@@ -168,7 +168,7 @@ server.enableConfig = true
 #telegram.chatId =
 ```
 
-Pronto, renicie a aplicao e acesse com o site colocando https://seusubdomio.duckdns.org:8081 
+Pronto, renicie a aplicao e acesse o site colocando https://seusubdomio.duckdns.org:8081 
 
 nao se esqueca do https!!!
 
