@@ -109,7 +109,7 @@ baixe em seu Desktop edite e mande ao servidor.
 
 OBS: FAÇA BACKUP DO SEU ARQUIVO, ANTES DE INICIAR ESTE PASSO!
 
-> Neste passo, vou assumir que a senha que você configurou no comando acima foi: PRECISOIRDORMIR
+> Neste passo, vou assumir que a senha que você configurou no comando acima foi: **PRECISOIRDORMIR**
 
 Voce deve adiconar as seguintes linhas em seu arquivo:
 ```bash
