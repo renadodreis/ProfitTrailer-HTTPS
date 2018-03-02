@@ -22,7 +22,8 @@ Voce pode acessar o site duckdns.org, onde você consegue criar subdominios e ap
 
 > Nota: neste exemplo. eu já criei o subdominio  **meuprofittraler.duckdns.org**, desta forma, o mesmo ja esta uso, voce deve criar com outro nome.
 
-print-1-01
+![print-1-01](/print/print-1-01.png)
+
 
 Observe que após adicionar o subdominio, o mesmo coloca o IP do seu provedor de saida, voce deve alterar este IP para o IP da sua Instancia/VPS,
 após colocar o ip de sua instancia nao se esqueça de clicar na opcao **update ip**
@@ -80,11 +81,12 @@ cd certbot
 
 após execultar o comando, ele deve instalar novos pacotes, então vai pergunta se você quer continuar, reponda sim com a letra ( Y ) do seu teclado.
 
-print-2-01
+![print-2-01](/print/print-2-01.png)
+
 
 Adicone um email valido, depois aceite os Termos do contrato com a letra ( A ) do seu teclado, e por fim aperte ( Y )
 
-print-2-02
+![print-2-02](/print/print-2-02.JPG)
 
 Agora vamos para o diretorio: /etc/letsencrypt/live/meuprofittraler.duckdns.org
 
