@@ -16,9 +16,9 @@ Instalação e configuração do HTTPS/SSL no ProfitTrailer
 
 Voce pode acessar o site duckdns.org, onde você consegue criar subdominios e aponta-los para sua instancia
 
-1 - logue no site duckdns.org, pode ser com sua conta do gmail
+1 - Logue no site duckdns.org, pode ser com sua conta do gmail
 
-2 - coloque o nome do seu subdominio e clique em **add domain**
+2 - Coloque o nome do seu subdominio e clique em **add domain**
 
 > Nota: neste exemplo. eu já criei o subdominio  **meuprofittraler.duckdns.org**, desta forma, o mesmo ja esta uso, voce deve criar com outro nome.
 
@@ -28,8 +28,9 @@ Voce pode acessar o site duckdns.org, onde você consegue criar subdominios e ap
 Observe que após adicionar o subdominio, o mesmo coloca o IP do seu provedor de saida, voce deve alterar este IP para o IP da sua Instancia/VPS,
 após colocar o ip de sua instancia nao se esqueça de clicar na opcao **update ip**
 
-> Nota: leva um certo e longo  tempo (Até 24hs) para a publicação do subdominio apontar para a sua instancia, voce pode testar no seu navegador
+> Nota: leva um certo tempo/minutos ou horas para a publicação do subdominio apontar para a sua instancia, voce pode testar no seu navegador
 > ex: http://meuprofittraler.duckdns.org:8081
+
 
 Pronto, agora o subdominio meuprofittraler.duckdns.org já esta apontado para a sua instancia, vamos ao segundo passo.
 
