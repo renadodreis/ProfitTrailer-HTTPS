@@ -12,7 +12,7 @@ Instalação e configuração do HTTPS/SSL no ProfitTrailer
 
 - Passo 01 
 
-> Nota: Se você já possui em dominio para a sua VPS pule para o **Passo 02**
+> Nota: Se você já possui um dominio para a sua VPS pule para o **Passo 02**
 
 Voce pode acessar o site duckdns.org, onde você consegue criar subdominios e aponta-los para sua instancia
 
